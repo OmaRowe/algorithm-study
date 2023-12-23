@@ -1,5 +1,5 @@
-/**
- * @type {import('eslint').Linter.Config}
+/!*
+!* @type {import('eslint').Linter.Config}
  */
 module.exports = {
   parser: '@typescript-eslint/parser',
@@ -49,3 +49,4 @@ module.exports = {
     'class-methods-use-this': 1 // 警告类中的方法不使用this
   }
 }
+ 
